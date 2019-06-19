@@ -2,7 +2,7 @@ header {
 	width: 100%;
 	background-color: #5b7989;
 	border-radius: 10px 10px 0px 0px;
-	margin: 10px auto;
+	margin: 1px auto;
 }
 
 @keyframes nav-animacion {
@@ -20,7 +20,7 @@ header {
 
 
 
-#nav {
+.nav {
 	animation-name: nav-animacion;
 	animation-duration: 1.5s;
 	-webkit-animation-delay: 1s;
@@ -81,6 +81,13 @@ footer{
 	margin: auto;
 	justify-content: space-between;
 
+}
+.redes img{
+	width: 20px;
+	height: 20px;
+	flex:auto;
+	padding: 2px;
+	justify-content: center;
 }
 .galeria__img {
 	width: 300px;
